@@ -1,6 +1,6 @@
 # Amabile Negocios Inmobiliarios
 
-Sitio institucional de Amabile Negocios Inmobiliarios. Presenta sus servicios,
+Sitio web de Amabile Negocios Inmobiliarios. Presenta sus servicios,
 trayectoria, canales de contacto, solicitud de tasaciones y enlaces a su oferta
 actualizada en Zonaprop.
 
