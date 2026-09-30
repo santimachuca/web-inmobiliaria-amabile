@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa6";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTiktok,
+  FaYoutube,
+} from "react-icons/fa6";
 
 import { zonapropLinks } from "@/lib/zonaprop";
 
@@ -109,15 +114,35 @@ export default function Footer() {
           </Link>
         </nav>
 
-        <div className="text-sm leading-7 text-white/70 md:text-right">
-          <p>+54 9 11 4405-2716</p>
-          <p>ventas@amabile.com.ar</p>
-          <p className="mt-3">Matrícula C.U.C.I.C.B.A. 689</p>
+        <div className="flex flex-col items-start text-sm leading-7 text-white/70 md:items-end">
+                
+          <a
+            href="tel:+5491144052716"
+            className="transition hover:text-white"
+          >
+            +54 9 11 4405-2716
+          </a>
+          
+          <a
+            href="tel:+5491144052716"
+            className="transition hover:text-white"
+          >
+            +54 9 11 4405-2716
+          </a>
+
+          <a
+            href="mailto:ventas@amabile.com.ar"
+            className="transition hover:text-white"
+          >
+            ventas@amabile.com.ar
+          </a>
         </div>
       </div>
 
-      <div className="container mt-10 border-t border-white/10 pt-6 text-xs text-white/45">
-        © {new Date().getFullYear()} Amabile Negocios Inmobiliarios
+      <div className="container mt-10 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-white/45 md:flex-row md:items-center md:justify-between">
+        <p>© {new Date().getFullYear()} Amabile Negocios Inmobiliarios</p>
+
+        <p>Matrícula C.U.C.I.C.B.A. 689</p>
       </div>
     </footer>
   );

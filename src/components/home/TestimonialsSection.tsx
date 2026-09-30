@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
               aria-hidden="true"
               className="text-[var(--color-accent)]"
             />
-            Lo que dicen nuestros clientes
+            Lo que opinan de nosotros
           </div>
 
           <h2 className="mt-5 text-4xl font-semibold leading-tight text-[var(--color-primary-dark)] md:text-5xl">
@@ -40,7 +40,7 @@ export default function TestimonialsSection() {
 
             <span>
               {googleReviews.rating.toLocaleString("es-AR")} de 5 ·{" "}
-              {googleReviews.total} reseñas
+              +{googleReviews.total} reseñas
             </span>
 
             <span aria-hidden="true">→</span>

@@ -8,7 +8,7 @@ export interface Testimonial {
 
 export const googleReviews = {
   rating: 4.7,
-  total: 207,
+  total: 250,
   url: "https://www.google.com/maps/place/Amabile+Negocios+Inmobiliarios/@-34.5773977,-58.636179,12z/data=!4m12!1m2!2m1!1samabile!3m8!1s0x95bcb65b64f197a5:0x82c258a95c42bcb0!8m2!3d-34.5774073!4d-58.4919513!9m1!1b1!15sCgdhbWFiaWxlWgkiB2FtYWJpbGWSARJyZWFsX2VzdGF0ZV9hZ2VuY3maAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnRLU0ZSVVRucFJiazVFVWtSR2FGVlVUVE5pYm14aFYwVTFhRTlWUlJBQuABAPoBBAgAEDM!16s%2Fg%2F1tfrcc89?entry=ttu",
 };
 
