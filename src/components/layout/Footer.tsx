@@ -2,8 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import {
+  FaEnvelope,
   FaFacebookF,
   FaInstagram,
+  FaLocationDot,
+  FaPhone,
   FaTiktok,
   FaYoutube,
 } from "react-icons/fa6";
@@ -13,8 +16,8 @@ import { zonapropLinks } from "@/lib/zonaprop";
 export default function Footer() {
   return (
     <footer className="bg-[var(--color-primary-dark)] py-14 text-white">
-      <div className="container grid gap-10 md:flex md:items-center md:justify-between">
-        <div>
+      <div className="container grid gap-10 md:grid-cols-2 md:items-center xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] xl:gap-x-6">
+        <div className="min-w-0">
           <Link
             href="/"
             aria-label="Amabile Negocios Inmobiliarios - Inicio"
@@ -81,7 +84,7 @@ export default function Footer() {
 
         <nav
           aria-label="Navegación del pie"
-          className="flex flex-col items-start gap-3 text-sm text-white/70 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-x-6 md:gap-y-3"
+          className="flex flex-col items-start gap-3 text-sm text-white/70 md:order-3 md:col-span-2 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-x-6 md:gap-y-3 xl:order-2 xl:col-span-1"
         >
           <a
             href={zonapropLinks.sale}
@@ -114,26 +117,30 @@ export default function Footer() {
           </Link>
         </nav>
 
-        <div className="flex flex-col items-start text-sm leading-7 text-white/70 md:items-end">
-                
+        <div className="flex min-w-0 flex-col items-start gap-1 text-sm leading-7 text-white/70 md:order-2 md:items-end xl:order-3">
           <a
             href="tel:+5491144052716"
-            className="transition hover:text-white"
+            className="inline-flex items-center gap-2 transition hover:text-white"
           >
-            +54 9 11 4405-2716
-          </a>
-          
-          <a
-            href="tel:+5491144052716"
-            className="transition hover:text-white"
-          >
+            <FaPhone aria-hidden="true" className="shrink-0" />
             +54 9 11 4405-2716
           </a>
 
           <a
-            href="mailto:ventas@amabile.com.ar"
-            className="transition hover:text-white"
+            href="https://www.google.com/maps/place/Amabile+Negocios+Inmobiliarios/@-34.5768767,-58.4946561,17.25z/data=!4m6!3m5!1s0x95bcb65b64f197a5:0x82c258a95c42bcb0!8m2!3d-34.5774073!4d-58.4919513!16s%2Fg%2F1tfrcc89"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 transition hover:text-white"
           >
+            <FaLocationDot aria-hidden="true" className="shrink-0" />
+            Monroe 5599, Villa Urquiza
+          </a>
+
+          <a
+            href="mailto:ventas@amabile.com.ar"
+            className="inline-flex items-center gap-2 transition hover:text-white"
+          >
+            <FaEnvelope aria-hidden="true" className="shrink-0" />
             ventas@amabile.com.ar
           </a>
         </div>
