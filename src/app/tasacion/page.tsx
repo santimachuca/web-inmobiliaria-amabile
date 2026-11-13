@@ -40,6 +40,20 @@ export default function ValuationPage() {
         </div>
       </section>
 
+      <section className="border-b border-[var(--color-border)] bg-white py-16 md:py-20">
+        <div className="container max-w-4xl">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary-dark)] md:text-4xl">
+            No se trata solo de poner un precio
+          </h2>
+          <p className="mt-6 text-lg leading-8 text-[var(--color-muted)]">
+            Queremos que entiendas cómo se va a trabajar tu propiedad: su
+            presentación, la publicación, las visitas y el seguimiento. El plan
+            se adapta a tu caso; no es una promesa de venta dentro de un plazo
+            fijo.
+          </p>
+        </div>
+      </section>
+
       <section className="bg-white py-20 md:py-28">
         <div className="container">
           <div className="max-w-3xl">
