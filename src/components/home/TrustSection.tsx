@@ -29,16 +29,22 @@ export default function TrustSection() {
       <div className="container">
         <div className="grid gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <ScrollReveal>
-            <p className="eyebrow">Trayectoria y confianza</p>
+            <p className="eyebrow">Cercanía y trayectoria</p>
 
             <h2 className="mt-4 text-4xl font-semibold leading-tight md:text-5xl">
-              Más de cuatro décadas haciendo las cosas con seriedad
+              Una familia que trabaja Villa Urquiza
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-white/70">
-              Amabile es una inmobiliaria familiar que combina experiencia,
-              conocimiento del mercado y una atención cercana en cada
-              operación.
+              Somos Amabile Negocios Inmobiliarios, una firma familiar con unos
+              40 años de trayectoria en Villa Urquiza. Conocemos el barrio y
+              trabajamos con un seguimiento cercano de cada operación.
+            </p>
+
+            <p className="mt-4 max-w-xl text-lg leading-8 text-white/70">
+              Adrián es tu contacto para evaluar la propiedad y conversar los
+              próximos pasos. La experiencia familiar y el trabajo cotidiano
+              se combinan para acompañarte durante la comercialización.
             </p>
 
             <Link
