@@ -3,27 +3,27 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 const steps = [
   {
     number: "01",
-    title: "Escuchamos",
+    title: "Nos contás tu caso",
     description:
-      "Conocemos tu situación, tus objetivos y qué necesitás resolver.",
+      "Conversamos sobre la propiedad, tu objetivo y los tiempos que estás evaluando.",
   },
   {
     number: "02",
-    title: "Analizamos",
+    title: "Tasación + plan de venta",
     description:
-      "Estudiamos la propiedad, la zona y las condiciones actuales del mercado.",
+      "Definimos un valor orientativo de mercado y te explicamos las acciones de comercialización propuestas.",
   },
   {
     number: "03",
-    title: "Planificamos",
+    title: "Acordamos cómo avanzar",
     description:
-      "Definimos una estrategia clara y adecuada para cada operación.",
+      "Revisamos las condiciones y, si decidís trabajar con nosotros, formalizamos la autorización.",
   },
   {
     number: "04",
-    title: "Acompañamos",
+    title: "Comercializamos y seguimos",
     description:
-      "Gestionamos el proceso y te asesoramos hasta concretar la operación.",
+      "Coordinamos la presentación, la publicación, las visitas y la devolución sobre lo que va pasando.",
   },
 ];
 
@@ -39,8 +39,8 @@ export default function ProcessSection() {
           </h2>
 
           <p className="mt-5 text-lg leading-8 text-[var(--color-muted)]">
-            Cada operación es diferente. Por eso trabajamos con una estrategia
-            personalizada y una comunicación cercana en todo momento.
+            Cada propiedad tiene su contexto. Te explicamos los próximos pasos
+            y mantenemos una comunicación cercana durante el proceso.
           </p>
         </ScrollReveal>
 
