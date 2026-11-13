@@ -2,9 +2,6 @@ import Link from "next/link";
 
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
-const whatsappUrl =
-  "https://wa.me/5491144052716?text=Hola%2C%20quisiera%20consultar%20por%20la%20tasaci%C3%B3n%20de%20una%20propiedad.";
-
 export default function ValuationCta() {
   return (
     <section className="bg-[var(--color-surface)] py-20 md:py-28">
@@ -22,34 +19,22 @@ export default function ValuationCta() {
             />
 
             <div className="max-w-3xl">
-              <p className="eyebrow">Tasación profesional</p>
+              <p className="eyebrow">Tu próximo paso</p>
 
               <h2 className="mt-4 text-4xl font-semibold leading-tight md:text-6xl">
-                ¿Querés conocer el valor de tu propiedad?
+                ¿Querés evaluar la venta de tu propiedad en Villa Urquiza?
               </h2>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-white/75">
-                Contanos sus características principales y nuestro equipo te
-                orientará de manera personalizada.
+                Empecemos por la tasación y un plan concreto.
               </p>
 
-              <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-                <Link
-                  href="/tasacion"
-                  className="rounded-full bg-[var(--color-accent)] px-7 py-4 text-center font-semibold text-[var(--color-primary-dark)] transition hover:brightness-110"
-                >
-                  Solicitar tasación
-                </Link>
-
-                <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-full border border-white/35 px-7 py-4 text-center font-semibold text-white transition hover:border-white hover:bg-white hover:text-[var(--color-primary-dark)]"
-                >
-                  Hablar por WhatsApp
-                </a>
-              </div>
+              <Link
+                href="/tasacion"
+                className="mt-9 inline-block rounded-full bg-[var(--color-accent)] px-7 py-4 text-center font-semibold text-[var(--color-primary-dark)] transition hover:brightness-110"
+              >
+                Pedí tu tasación + plan de venta
+              </Link>
             </div>
           </div>
         </ScrollReveal>
