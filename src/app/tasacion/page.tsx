@@ -13,9 +13,9 @@ export default function ValuationPage() {
   return (
     <main>
       <PageHero
-        eyebrow="Tasación profesional"
-        title="Conocé el valor real de tu propiedad"
-        description="Analizamos cada inmueble considerando su ubicación, características y las condiciones actuales del mercado."
+      eyebrow="Para propietarios de Villa Urquiza"
+      title="Tasación + plan de venta de tu propiedad en Villa Urquiza"
+      description="Conocé un valor orientativo de mercado y los pasos propuestos para vender tu casa o departamento, con el respaldo de una familia con unos 40 años de trayectoria en el barrio."
       />
 
       <section className="bg-white py-20 md:py-28">
