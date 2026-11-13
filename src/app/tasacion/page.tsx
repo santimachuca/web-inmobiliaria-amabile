@@ -64,8 +64,8 @@ export default function ValuationPage() {
             </h2>
 
             <p className="mt-5 text-lg leading-8 text-[var(--color-muted)]">
-              Completá los datos principales y nuestro equipo se pondrá en
-              contacto para realizar una evaluación personalizada.
+              Dejanos los datos de tu propiedad para conversar sobre una
+              tasación orientativa y un plan de venta adaptado a tu caso.
             </p>
           </div>
 
