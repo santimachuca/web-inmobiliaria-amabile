@@ -3,6 +3,10 @@ import type { Metadata } from "next";
 import ValuationForm from "@/components/forms/ValuationForm";
 import PageHero from "@/components/layout/PageHero";
 
+const whatsappMessage =
+  "Hola Adrián, estoy evaluando vender una propiedad en Villa Urquiza. Me interesa conocer la propuesta de tasación + plan de venta. ¿Me contás cómo avanzar?";
+const whatsappUrl = `https://wa.me/5491144052716?text=${encodeURIComponent(whatsappMessage)}`;
+
 export const metadata: Metadata = {
   title: "Tasación",
   description:
@@ -135,6 +139,26 @@ export default function ValuationPage() {
               </p>
             </details>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-[var(--color-primary-dark)] py-16 text-white md:py-20">
+        <div className="container max-w-4xl text-center">
+          <h2 className="text-3xl font-semibold md:text-4xl">
+            ¿Preferís conversar primero?
+          </h2>
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/75">
+            Escribinos por WhatsApp y contanos sobre tu propiedad en Villa
+            Urquiza.
+          </p>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-block rounded-full bg-[var(--color-accent)] px-7 py-4 font-semibold text-[var(--color-primary-dark)] transition hover:brightness-110"
+          >
+            Escribinos por WhatsApp
+          </a>
         </div>
       </section>
     </main>
