@@ -40,7 +40,7 @@ export default function HeroSection() {
 
         <ScrollReveal delay={0.18} className="mt-10 flex flex-wrap gap-4">
           <Link
-            href="/tasacion"
+            href="/tasacion#formulario"
             className="rounded-full bg-[var(--color-accent)] px-7 py-4 font-semibold text-[var(--color-primary-dark)] transition hover:brightness-110"
           >
             Pedí tu tasación + plan de venta

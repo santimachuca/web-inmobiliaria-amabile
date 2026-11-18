@@ -84,7 +84,7 @@ export default function DesktopNavigation() {
       </Link>
 
       <Link
-        href="/tasacion"
+        href="/tasacion#formulario"
         aria-current={pathname === "/tasacion" ? "page" : undefined}
         className={`rounded-full bg-[var(--color-accent)] px-6 py-3 text-sm font-semibold text-[var(--color-primary-dark)] transition hover:brightness-110 ${
           pathname === "/tasacion"

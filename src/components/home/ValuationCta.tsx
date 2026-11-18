@@ -30,7 +30,7 @@ export default function ValuationCta() {
               </p>
 
               <Link
-                href="/tasacion"
+                href="/tasacion#formulario"
                 className="mt-9 inline-block rounded-full bg-[var(--color-accent)] px-7 py-4 text-center font-semibold text-[var(--color-primary-dark)] transition hover:brightness-110"
               >
                 Pedí tu tasación + plan de venta

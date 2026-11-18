@@ -83,7 +83,7 @@ export default function MobileMenu() {
           </a>
 
           <Link
-            href="/tasacion"
+            href="/tasacion#formulario"
             onClick={closeMenu}
             className="mt-2 rounded-xl bg-[var(--color-accent)] px-4 py-3 text-center text-sm font-semibold"
           >

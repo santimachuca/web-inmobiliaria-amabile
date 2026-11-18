@@ -58,7 +58,7 @@ export default function ValuationPage() {
         </div>
       </section>
 
-      <section className="bg-white py-20 md:py-28">
+      <section id="formulario" className="bg-white py-20 md:py-28">
         <div className="container">
           <div className="max-w-3xl">
             <p className="eyebrow">Empecemos</p>
