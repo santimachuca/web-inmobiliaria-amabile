@@ -1,5 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import PlanIntroSection from "@/components/home/PlanIntroSection";
+import PresentationSection from "@/components/home/PresentationSection";
 import ProcessSection from "@/components/home/ProcessSection";
 import PropertyPortalSection from "@/components/home/PropertyPortalSection";
 import ServicesSection from "@/components/home/ServicesSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <ServicesSection />
       <TrustSection />
       <ProcessSection />
+      <PresentationSection />
       <TestimonialsSection />
       <ValuationCta />
     </main>
