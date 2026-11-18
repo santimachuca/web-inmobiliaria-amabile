@@ -33,7 +33,8 @@ export default function Footer() {
           </Link>
 
           <p className="mt-3 max-w-xs text-sm leading-6 text-white/60">
-            Experiencia, cercanía y conocimiento del mercado inmobiliario.
+            Amabile Negocios Inmobiliarios · Villa Urquiza. Tasación, plan de
+            venta y comercialización de propiedades.
           </p>
 
           <nav
@@ -125,7 +126,6 @@ export default function Footer() {
             <FaPhone aria-hidden="true" className="shrink-0" />
             +54 9 11 4405-2716
           </a>
-
           <a
             href="https://www.google.com/maps/place/Amabile+Negocios+Inmobiliarios/@-34.5768767,-58.4946561,17.25z/data=!4m6!3m5!1s0x95bcb65b64f197a5:0x82c258a95c42bcb0!8m2!3d-34.5774073!4d-58.4919513!16s%2Fg%2F1tfrcc89"
             target="_blank"
