@@ -6,7 +6,7 @@ const WHATSAPP_NUMBER = "5491144052716";
 
 export default function ValuationForm() {
   const inputStyles =
-    "rounded-xl border border-[var(--color-border)] bg-white px-4 py-3 text-[var(--foreground)] outline-none transition placeholder:text-[var(--color-muted)]/60 focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[var(--color-accent)]/15";
+    "min-w-0 w-full rounded-xl border border-[var(--color-border)] bg-white px-4 py-3 text-[var(--foreground)] outline-none transition placeholder:text-[var(--color-muted)]/60 focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[var(--color-accent)]/15";
 
   const labelStyles = "text-sm font-semibold text-[var(--color-primary-dark)]";
 
@@ -45,7 +45,7 @@ export default function ValuationForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="grid gap-6 rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 shadow-sm md:grid-cols-2 md:p-10"
+      className="grid min-w-0 grid-cols-1 gap-6 rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface)] p-4 shadow-sm sm:p-6 md:grid-cols-2 md:p-10"
     >
       <div className="flex flex-col gap-2">
         <label htmlFor="name" className={labelStyles}>

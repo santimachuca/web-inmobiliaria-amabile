@@ -17,64 +17,63 @@ export default function ValuationPage() {
   return (
     <main>
       <PageHero
+        compact
         eyebrow="Para propietarios de Villa Urquiza"
         title="Tasación + plan de venta de tu propiedad en Villa Urquiza"
-        description="Conocé un valor orientativo de mercado y los pasos propuestos para vender tu casa o departamento, con el respaldo de una familia con unos 40 años de trayectoria en el barrio."
+        description="Conocé un valor orientativo y los pasos para vender tu propiedad en Villa Urquiza."
       />
 
-      <section className="bg-[var(--color-surface)] py-16 md:py-20">
-        <div className="container">
-          <h2 className="text-3xl font-semibold text-[var(--color-primary-dark)] md:text-4xl">
-            Qué te llevás
-          </h2>
-
-          <ul className="mt-8 grid gap-5 text-lg leading-8 text-[var(--color-muted)] md:grid-cols-3">
-            <li>
-              Una tasación orientativa basada en tu propiedad y su contexto de
-              mercado.
-            </li>
-            <li>
-              Un plan de venta para presentarla y definir acciones de
-              comercialización.
-            </li>
-            <li>
-              Próximos pasos claros para decidir si querés avanzar con la venta.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="border-b border-[var(--color-border)] bg-white py-16 md:py-20">
-        <div className="container max-w-4xl">
-          <h2 className="text-3xl font-semibold text-[var(--color-primary-dark)] md:text-4xl">
-            No se trata solo de poner un precio
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-[var(--color-muted)]">
-            Queremos que entiendas cómo se va a trabajar tu propiedad: su
-            presentación, la publicación, las visitas y el seguimiento. El plan
-            se adapta a tu caso; no es una promesa de venta dentro de un plazo
-            fijo.
-          </p>
-        </div>
-      </section>
-
-      <section id="formulario" className="bg-white py-20 md:py-28">
+      <section id="formulario" className="bg-white py-12 md:py-16">
         <div className="container">
           <div className="max-w-3xl">
             <p className="eyebrow">Empecemos</p>
 
-            <h2 className="mt-4 text-4xl font-semibold leading-tight text-[var(--color-primary-dark)] md:text-5xl">
+            <h2 className="mt-3 text-3xl font-semibold leading-tight text-[var(--color-primary-dark)] md:text-4xl">
               Contanos sobre tu propiedad
             </h2>
 
-            <p className="mt-5 text-lg leading-8 text-[var(--color-muted)]">
+            <p className="mt-3 text-lg leading-8 text-[var(--color-muted)]">
               Dejanos los datos de tu propiedad para conversar sobre una
               tasación orientativa y un plan de venta adaptado a tu caso.
             </p>
           </div>
 
-          <div className="mt-12 max-w-4xl">
+          <div className="mt-8 max-w-4xl">
             <ValuationForm />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[var(--color-surface)] py-14 md:py-20">
+        <div className="container">
+          <h2 className="text-3xl font-semibold text-[var(--color-primary-dark)] md:text-4xl">
+            Qué te llevás
+          </h2>
+
+          <ul className="mt-7 grid gap-4 text-[var(--color-muted)] md:grid-cols-3">
+            <li className="rounded-2xl border border-[var(--color-border)] bg-white p-6 leading-7">
+              Una tasación orientativa basada en tu propiedad y su contexto de
+              mercado.
+            </li>
+            <li className="rounded-2xl border border-[var(--color-border)] bg-white p-6 leading-7">
+              Un plan de venta para presentarla y definir acciones de
+              comercialización.
+            </li>
+            <li className="rounded-2xl border border-[var(--color-border)] bg-white p-6 leading-7">
+              Próximos pasos claros para decidir si querés avanzar con la venta.
+            </li>
+          </ul>
+
+          <div className="mt-8 rounded-2xl border border-[var(--color-border)] bg-white p-6 md:p-8">
+            <h2 className="text-2xl font-semibold text-[var(--color-primary-dark)] md:text-3xl">
+              No se trata solo de poner un precio
+            </h2>
+            <p className="mt-4 max-w-4xl leading-7 text-[var(--color-muted)]">
+              Queremos que entiendas cómo se va a trabajar tu propiedad: su
+              presentación, la publicación, las visitas y el seguimiento. El
+              plan se adapta a tu caso; no es una promesa de venta dentro de un
+              plazo fijo.
+            </p>
           </div>
         </div>
       </section>
