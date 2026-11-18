@@ -8,9 +8,9 @@ const whatsappMessage =
 const whatsappUrl = `https://wa.me/5491144052716?text=${encodeURIComponent(whatsappMessage)}`;
 
 export const metadata: Metadata = {
-  title: "Tasación",
+  title: "Tasación y plan de venta en Villa Urquiza",
   description:
-    "Solicitá la tasación profesional de tu propiedad con Amabile Negocios Inmobiliarios.",
+    "Conocé un valor orientativo de mercado y un plan de venta para tu propiedad en Villa Urquiza con Amabile Negocios Inmobiliarios.",
 };
 
 export default function ValuationPage() {

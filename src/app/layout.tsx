@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | Amabile",
   },
   description:
-    "Más de 40 años acompañando operaciones inmobiliarias en Buenos Aires.",
+    "Tasación, plan de venta y comercialización de propiedades en Villa Urquiza con Amabile Negocios Inmobiliarios.",
 };
 
 export default function RootLayout({
